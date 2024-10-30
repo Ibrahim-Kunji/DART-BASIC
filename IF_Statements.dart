@@ -1,6 +1,6 @@
 void main() {
-  var name = "Usman";
-  var salary = 200000;
+  // var name = "Usman";
+  // var salary = 200000;
 /*
   if (salary >= 200000) {
     print("Dear $name You got promotion. Congratulation! ");

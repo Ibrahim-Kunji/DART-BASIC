@@ -13,20 +13,18 @@ void main() {
     print("Please, enter a vallid score!");
   }
 
-
+  
 }
 
 class Student {
   String name = ""; // Instance variable
   int total_marks = 500;
-  double _percent = 0.0; // private Instance variable for it is own library 
-  
+  double _percent = 0.0; // private Instance variable for it is own library
 
   // instance variable with custom setter
-  void set percentage(double marksSecured) => _percent = ((marksSecured / total_marks) * 100);
-  
+  void set percentage(double marksSecured) => 
+  _percent = ((marksSecured / total_marks) * 100);
 
   // instance variable with custom getter
   double get percentage => _percent;
 }
-

@@ -14,7 +14,7 @@ class Circle {
 
   static void calculateArea(int r) {
     //myNormalFunction(); //not allowed to call intance function
-    this.color; //you cannot use "this" keyword and even cannot access instance variable
+    //this.color; //you cannot use "this" keyword and even cannot access instance variable
     double area = r * r * pi;
     print("Area of a circle is  $area");
   }

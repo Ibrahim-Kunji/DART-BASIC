@@ -1,6 +1,7 @@
 void main() {
   // string interpolation
   String name = "Usman";
+  print(name.runtimeType);
 
   // use ["My name is $name"] instead of  ["My name is " + name];
   print("My name is $name");
