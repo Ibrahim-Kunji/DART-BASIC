@@ -1,4 +1,5 @@
-void main() {
+void main() {  
+  try {
   List<int?> numberslist = List.filled(5, 0);
   numberslist[0] = 1;
   numberslist[1] = 2;
@@ -10,16 +11,18 @@ void main() {
   numberslist[1] = null; //Delete operation
   // print(numberslist[1]);
 
-  for (int? i in numberslist) {
-    //using individual element
-    print(i);
-  }
-  print("\n");
+    for (int? i in numberslist) {
+      //using individual element
+      print(i);
+    }
+    print("\n");
 
-  numberslist.forEach((i) => print(i)); // using lambda
-  print("\n");
-  for (int i = 0; i < numberslist.length; i++) {
-    print("List[$i] = ${numberslist[i]}");
+    numberslist.forEach((i) => print(i)); // using lambda
+    print("\n");
+    for (int i = 0; i < numberslist.length; i++) {
+      print("List[$i] = ${numberslist[i]}");
+    }
+  } catch (e) {
+    print("The exeption thrown is $e");
   }
-
 }

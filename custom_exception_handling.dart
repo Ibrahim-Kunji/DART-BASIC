@@ -19,6 +19,6 @@ void depositMoney(int amount) {
   if (amount < 0) {
     throw new DepositException();
   } else {
-    print("You deposited \$${amount} successful!");
+    print("You deposited \$${amount} successfully!");
   }
 }

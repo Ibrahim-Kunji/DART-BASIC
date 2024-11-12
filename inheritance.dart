@@ -14,7 +14,7 @@ void main() {
 
   cat.color = "brown";
   cat.age = 2;
-  cat.meow;
+  cat.meow();
 
   print("The color of my cat is ${cat.color}");
   print("My cat is ${cat.age} years old");

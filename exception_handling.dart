@@ -22,7 +22,7 @@ void main() {
 
   print("");
   ("Case 3, Using 'STACK TRACE'");
-  // Using STACK TRACE to know the event occured before the exception was thrown
+  //Using STACK TRACE to know the event occured before the exception was thrown
   try {
     int result = 12 ~/ 0;
     print(result);

@@ -1,6 +1,7 @@
 void main() {
   // final keyword
-  final city = "Gombe";
+  final city;
+  city = "Gombe";
   final int num1 = 10; // writing the data type "int" is optional
 
   //const keyword

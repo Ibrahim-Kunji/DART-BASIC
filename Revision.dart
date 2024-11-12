@@ -29,20 +29,20 @@ String describe({required String name, required int age,required double height})
 // fat arrow
 //String describe({required String name, required int age,required double height}) =>"Hello, my name is $name. My name has ${name.length} letters. I'm $age years old. I'm $height meters tall";
 
-
-
 void main() {
-  final person = Person(name:"Musa", age: 33,height: 3.4);
+  final person = Person(name: "Musa", age: 33, height: 3.4);
 
   print(person.describe());
 }
 
 class Person {
-  Person({required this.name, required this.age,required this.height});
+  Person({required this.name, required this.age, required this.height});
   String name;
   int age;
   double height;
 
+  String describe() =>
+      "Hello, my name is $name. My name has ${name.length} letters. I'm $age years old. I'm $height meters tall";
 
-  String describe() =>"Hello, my name is $name. My name has ${name.length} letters. I'm $age years old. I'm $height meters tall";
+
 }

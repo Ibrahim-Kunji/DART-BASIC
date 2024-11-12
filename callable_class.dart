@@ -2,6 +2,7 @@ void main() {
   var person1 = person();
   var msg = person1("Ibrahim", 25);
   print(msg);
+  
 }
 
 class person {

@@ -19,6 +19,6 @@ class Student {
     print("This is my named constructor");
   }
 
-  // parameterized namde constructor
+  // parameterized name constructor
   Student.anotherCustomConstructor(this.id, this.name);
 }
