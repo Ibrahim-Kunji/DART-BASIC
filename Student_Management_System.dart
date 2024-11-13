@@ -122,11 +122,11 @@ class StudentManagementSystem {
     while (true) {
       print("\n--- Student Management System ---\n");
 
-      print("1. Add Student");
-      print("2. Display All Students");
-      print("3. Update Student");
-      print("4. Delete Student");
-      print("5. Exit");
+      print("1. 🆕 Add Student");
+      print("2. ▶️ Display All Students");
+      print("3. 🖍️ Update Student");
+      print("4. ❎ Delete Student");
+      print("5. ↩️ Exit");
 
       stdout.write("Choose an option: ");
       String choice = stdin.readLineSync()!; // Get user's choice
@@ -135,7 +135,7 @@ class StudentManagementSystem {
           addStudent(); // Add a new student
           break;
         case '2':
-          print("Loading......");
+          print("Loading ..⌛");
           await displayAllStudents(); // Display all students after delay
           break;
         case '3':
